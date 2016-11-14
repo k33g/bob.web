@@ -1,0 +1,23 @@
+{
+  "name": "bob-web",
+  "version": "0.0.0",
+  "private": true,
+  "author": "Philippe CHARRIERE <ph.charriere@gmail.com>",
+  "description": "A simple web server",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0"
+  },
+  "engines": {
+    "node": "6.4.0"
+  },
+  "main": "app.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha tests/**"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.5.3",
+    "mocha-junit-reporter": "^1.11.1"
+  }
+}
