@@ -12,7 +12,7 @@ app.use(bodyParser.urlencoded({extended: false}))
 app.use(express.static('./'));
 
 app.get('/yo', (req, res) => {
-  res.send({message:"💙"});
+  res.send({message:"💙", "ff":process.env.TOTO});
 })
 
 app.listen(port)
