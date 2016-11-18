@@ -6,14 +6,18 @@
   "description": "A simple web server",
   "dependencies": {
     "body-parser": "^1.15.2",
-    "express": "^4.14.0"
+    "express": "^4.14.0",
+    "markdown-it": "^8.1.0",
+    "markdown-it-emoji": "^1.3.0"
   },
   "engines": {
     "node": "6.4.0"
   },
   "main": "app.js",
   "scripts": {
-    "test": "./node_modules/.bin/mocha tests/**"
+    "test": "./node_modules/.bin/mocha tests/**",
+    "genhtml": "./gen.js",
+    "start": "./app.js"
   },
   "devDependencies": {
     "chai": "^3.5.0",
